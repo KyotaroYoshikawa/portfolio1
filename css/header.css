@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@media screen and (min-width: 768px) {
+  body{
+    width: 100%;
+    height: auto;
+  }
+/*ヘッダー要素----------------------------*/
+header{
+  width: 100%;
+  height: auto;
+}
+#header{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 60%;
+}
+#headerimg2{
+  top:0;
+  left: 0;
+  position: absolute;
+  width: 76.38%;
+}
+#headerimg1{
+  top:0;
+  right: 0;
+  position: absolute;
+  width: 54.16%;
+}
+#logoimg{
+  width: 18.05%;
+  position: absolute;
+    top: 2.08%;
+    left: 4.02%;
+}
+#headermain{
+  width: 20.27%;
+  position: absolute;
+    top: 11.04%;
+    left: 66.45%;
+}
+
+/*メイン要素----------------------------*/
+#main{
+  width:100%;
+  height:auto;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 50%;
+}
+#mainimg{
+  width: 76.38%;
+  position: absolute;          /* 位置指定 */
+  top: 50%;                    /* 親要素の半分下にずらす */
+  left: 50%;                   /* 親要素の半分右にずらす */
+  transform: translateY(-50%) translateX(-50%);    /* 要素自体の半分、上と左にずらす */
+}
+#about-bg{
+  width: 40.83%;
+  position: absolute;
+  top: 22.83%;
+  left: 15.34%;
+}
+#about_as{
+  width: 13.33%;
+  position: absolute;
+  top: 30%;
+  left: 17.08%;
+}
+#about_as_text{
+  width: 36.80%;
+  height: 28.67%;
+  position: absolute;
+  top: 40%;
+  left: 17.08%;
+  font-family: Noto Sans JP;
+  font-size: 75%;
+}
+#btn_link{
+  width: 11.11%;
+  position: absolute;
+  top: 65%;
+  left: 17.08%;
+}
+/*記事*/
+#article_wrapper{
+  width: 100%;
+  height: auto;
+  padding-top: 50%;
+  position: relative;
+}
+#article{
+  width: 76.38%;
+  height: 100%;
+  position: absolute;          /* 位置指定 */
+  top: 50%;                    /* 親要素の半分下にずらす */
+  left: 50%;                   /* 親要素の半分右にずらす */
+  transform: translateY(-50%) translateX(-50%);    /* 要素自体の半分、上と左にずらす */
+  display: flex;
+}
+#work{
+  width: 50%;
+  height: auto;
+}
+#work_img{
+  width: 36.11%;
+}
+#culture{
+  width: 50%;
+}
+}
